@@ -83,11 +83,11 @@ The area of the box is: 14
 The volume of the box is: 70*/
 
 
-function boxCalculator(w, d, h) {
+function boxCalculator(width, depth, height) {
 
-    var width = w;
-    var depth = d;
-    var height = h;
+    var w = width;
+    var d = depth;
+    var h = height;
 
     var area = w * d;
     var volume = w * d * h;
